@@ -1,0 +1,28 @@
+versão dos pacotes
+
+exemplo:
+
+"express": "^2.1.1"
+
+versão:
+
+major   minor   path
+2.      .1      .1
+
+major: é a versão nova de um pacote, qualquer outra versão que seja diferente dessa é inconpatível.
+
+minor: é as versões que adicionam funcionalidades sem comprometer a compatibilidade com a versão MAJOR.
+
+path: são as veersões de correções de bugs e coisas pequenas que não comprometem a compatibilidade com a versão do MINOR e MAJOR.
+
+comandos:
+
+npm init -y (-y para pular as perguntas) init para iniciar os pacotes
+
+npm i ou install (para instalar algum pacote)
+
+siglas:
+
+-y: para pular perguntas.
+-E: para evitar que o pacote atualize.
+--save-dev or prod: para salvar como devDependecis or Dependecis.
