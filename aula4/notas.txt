@@ -1,0 +1,9 @@
+comandos node:
+
+    const fs = require('fs')
+
+fs = fileState ---------
+
+fs para manipulação de arquivos ---------
+
+fs. ---------
