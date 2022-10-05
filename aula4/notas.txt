@@ -1,6 +1,6 @@
 comandos node:
 
-    const fs = require('fs')
+    const fs = require('fs').promises //nunca esquecer do .promises
 
 fs = fileState ---------
 
