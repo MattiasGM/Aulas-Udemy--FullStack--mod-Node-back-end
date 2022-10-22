@@ -6,7 +6,6 @@ mongoose.connect(process.env.CONNECTIONSTRING,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useFindAndModify: false
   })
   .then(() => {
     app.emit('pronto');
@@ -19,7 +18,7 @@ const routes = require('./routes');
 const path = require('path');
 // const helmet = require('helmet'); // helmet começou a causar problemas no localhost por conta da falta de SSL
 const csrf = require('csurf');
-const { middlewareGlobal, checkCsrfError, csrfMiddleware } = require('./src/middlewares/middleware');
+const { middlewareGlobal, checkCsrfError, csrfMiddleware } = require('./src/middleware/middleware');
 
 // app.use(helmet()); // helmet começou a causar problemas no localhost por conta da falta de SSL
 

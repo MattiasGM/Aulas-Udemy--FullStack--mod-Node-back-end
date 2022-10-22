@@ -8,7 +8,11 @@ exports.middlewareGlobal = (req, res, next) => {
     next()
 }
 
-exports.outroMiddleware = (req, res, next) => {
+exports.checkCsrfError = (req, res, next) => {
+
+    next()
+}
+exports.csrfMiddleware = (req, res, next) => {
 
     next()
 }
